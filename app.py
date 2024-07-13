@@ -5,7 +5,7 @@ sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "model")
 import streamlit as st
 from pages._pages import home
 from pages._pages import about
-from pages._pages import github
+
 from pages._pages import try_it
 
 routes = {
